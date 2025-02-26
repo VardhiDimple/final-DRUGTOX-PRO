@@ -10,11 +10,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import py3Dmol
 import plotly.express as px
-
+from rdkit.Chem import Draw
 import py3Dmol
 import streamlit.components.v1 as components
 from rdkit import Chem
-
+from rdkit.Chem import AllChem, Descriptors, Draw
 from rdkit.Chem import Descriptors
 from rdkit.Chem.rdMolDescriptors import CalcNumAromaticRings
 import urllib.parse
