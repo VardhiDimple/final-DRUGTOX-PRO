@@ -10,7 +10,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import py3Dmol
 import plotly.express as px
-from rdkit.Chem import Draw
+
 import py3Dmol
 import streamlit.components.v1 as components
 from rdkit import Chem
